@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main (){
     int l=20,b=10;
-    int area = l*b;
+    int area = l * b ;
     int perimeter = 2*(l+b);
     if ("area > perimeter") {
         printf ("Area is Greator than its perimeter\n");
