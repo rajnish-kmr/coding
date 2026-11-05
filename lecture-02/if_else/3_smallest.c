@@ -18,7 +18,5 @@ int main (){
         printf ("%d is smallest \n",y);
     else
         printf ("%d is smallest \n",z);
-
-
     return 0;
 }
