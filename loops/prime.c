@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main (){
     int n;
-    printf ("Enter a Number :");
+    printf ("Enter a Number : ");
     scanf ("%d",&n);
     int a =0;
     for (int i=2; i<=n-1; i++){
@@ -12,10 +12,10 @@ int main (){
         }
     }
         if (n==1) printf ("the number is neither prime nor composite");
-        else if (n==0)     
-        printf ("Composite Number\n"); 
+        else if (a==0)     
+        printf ("Prime Number\n"); 
         else{
-         printf ("prime Number\n");
+         printf ("composite Number\n");
         }
     
     return 0;
